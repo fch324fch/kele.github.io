@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .kele {
+            background: url('./coke-label.png') 0 10px no-repeat;
+            animation: bg 5s linear infinite;
+        }
+        @keyframes bg{
+            from{
+                background-position: 0 10px;
+            }
+            to{ 
+                background-position: -574px 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kele">
+        <img src="./coke-can.png" alt="">
+    </div>
+</body>
+
+</html>
