@@ -17,15 +17,17 @@
             align-items: center;
         }
         .kele {
-            background: url('./coke-label.png') 0 10px no-repeat;
+            background-image: url('./coke-label.png');
+            background-repeat: repeat-x;
+            background-position: 0 10px;
             animation: bg 5s linear infinite;
         }
         @keyframes bg{
             from{
                 background-position: 0 10px;
             }
-            to{ 
-                background-position: -574px 10px;
+            to{
+                background-position: -537px 10px;
             }
         }
     </style>
